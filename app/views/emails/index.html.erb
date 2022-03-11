@@ -1,0 +1,23 @@
+<div>
+
+</div>
+
+<div class="container">
+ <table class="table table table-bordered table-dark" >
+    <thead>
+        <tr>
+        <th scope="col">Vos emails</th>
+        <th id="" scope="col">Contenu</th>
+        </tr>
+    </thead>
+    <tbody id="">
+        <% @emails.each do |email|  %>
+          <tr>
+          <td><a href="#"> <%= email.object%></td>
+          <td> </td>
+          </tr>
+    <% end %>
+    </tbody>
+    
+</table>
+</div>
